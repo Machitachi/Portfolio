@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +10,7 @@
 body {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     color: white;
-    margin-bottom: 300vh;
+    /* margin-bottom: 300vh; */
 }
 
 .menu {
@@ -49,15 +52,73 @@ body {
 .imagem {
     width: 20%; 
     float: left; 
-    display: inline-flexbox;
-    padding: 0 30px;
-   
+    padding: 0 30px;   
 }
 
 .title {
     width: 80%;
     float: right;
     display: inline-flexbox;
-    padding: 50px 0;
+    padding: 50px 0;      
+    font-family: 'Roboto', sans-serif;  
+    line-height: 50px;  
+}
+
+.title h1::first-letter {
+    font-size: 64px;
+}
+
+.perfil {
+    margin: 12px;
+    clear: both;
+    padding: 15px;
+    background-color: rgba(204, 204, 204,0.3);
+}
+
+#contato img {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 100px;
+}
+
+.projeto1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2px;
+}
+
+section h3, ul, p {
+    margin: 2px 20px;
+}
+
+.curriculum h3 {
+    padding: 25px;
+    font-size: 25px;
+    font-family: 'Roboto', cursive;
+}
+
+.curriculum div {
+    display: flex;    
+    margin: 30px ;    
+    align-items: center;
+    line-height: 25px;
+}
+
+.tecnologia {
+    display: flex;
+}
+
+.tecnologia img {
+    width: 110px;
+    display: flex;
+    margin: 50px;
     
 }
+
+
+
+
+
+
