@@ -16,10 +16,14 @@ body {
 .menu {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;    
+    justify-content:space-around;  
+    align-content: center;  
     background-image: linear-gradient(to right, #434343 0%, black 100%);
-    /* position: fixed; */
-    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 100vw;
+    
 }
 
 .menu li {
@@ -118,7 +122,19 @@ section h3, ul, p {
 }
 
 
+@media (max-width: 768px) {
+    body {
+        width: 200px;
 
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        width: 100%;
+
+    }
+}
 
 
 
